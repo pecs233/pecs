@@ -10,8 +10,9 @@
       height: 100vh;
       margin: 0;
       padding: 0;
-      background-color: #c9cbcf;
+      background-color: #8fa6e6;
       flex: 1;
+      background-image: url("./images/bg.jpg");
       
     .flex {
       display: flex;
@@ -26,11 +27,10 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #d7dae2;
-      outline-color: #f0f2f5;
+      background-color: #c2cff2;
+      outline-color: #dde2ea;
       outline-style: inset;
-
-      ;
+      margin: 5px;
     }
     .column1 {
       flex: 1;
@@ -39,6 +39,10 @@
       align-items: center;
       justify-content: center;
       color: rgb(43, 34, 34);
+      outline-style: inset;
+      outline-color: #d7dae2;
+      margin: 5px;
+      background-color: #c2cff2;
     }
   }
 </style>
@@ -46,7 +50,7 @@
   <body class="flex">
     <!-- 上部 -->
     <div>
-      <h1 style="text-align: center; color: #ff0000; margin-top: 20px;">
+      <h1 style="text-align: center; color: #1c387e; margin-top: 20px;">
         欢迎来到我的个人网站!
         <html lang="en">
         <head>
@@ -90,16 +94,22 @@
     <div class="column1">
       <h3>在大学想做的事：学习板绘、编程、音乐编辑、建模</h3>
       <h3>在大学的目标：制作至少一款能玩的游戏</h3>
-      <p style="justify-items:end;">网站会持续更新！</p>
+      <p style="display: flex;
+      justify-items: self-end;
+      color: #c82222;">网站会持续更新！</p>
     </div>
     </div>
        <!-- 下部 -->
 
 <div style="display: flex;
-flex-direction: column;
-align-items: center;">
+      flex-direction: column;
+      align-items: center;
+      margin: 5px;
+      outline-style: inset;
+      outline-color: #d7dae2;
+      background-color: #c2ceef;">
   <a href="https://space.bilibili.com/442703051?spm_id_from=333.1007.0.0"
-    style="text-align: center; color: #0000ff; margin-top: 20px; display: block;">
+    style="text-align: center; color: #5959d3; margin-top: 20px; display: block;">
     我的B站
   <p style="text-align: center;margin-top: 40px;">
     &copy; 2025 邓子洋. 版权所有
